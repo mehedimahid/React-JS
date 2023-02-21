@@ -7,5 +7,14 @@ import React from "react";
 //    return <h1>Hello Mehedi </h1>
 // }
 
-export const Hello = () =><h1>Hello Mehedi </h1>
-// export default hello
+const Hello = (props) => {
+   return ( 
+      <div>
+         <h1>Hello {props.name} as a {props.heroName} </h1>
+         {props.children}
+      </div>
+   )
+}
+export default Hello
+
+///tutorial number 9
