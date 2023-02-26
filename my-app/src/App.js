@@ -8,11 +8,17 @@ import Hellojsx from './component/whyJSX';
 import Withoutjsx from './component/whyJSX';
 import Message from './component/Message';
 import Counter from './component/Counter';
+import FunctionClick from './component/FunctionClick';
+import ClassClick from './component/ClassClick';
 
 function App() {
   return (
     <div className="App">
-      <Counter/>
+      {/* <Hello name = 'Diana' heroName = 'Wonder Woman'/>
+      <Welcome name = 'Diana ' heroName = 'Wonder Woman'/> */}
+      {/* <Counter/> */}
+      {/* <FunctionClick/> */}
+      <ClassClick/>
     </div>
   );
 }

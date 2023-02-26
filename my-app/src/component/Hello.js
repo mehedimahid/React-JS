@@ -8,10 +8,11 @@ import React from "react";
 // }
 
 const Hello = (props) => {
-   return ( 
+   const {name, heroName} = props
+   return (
       <div>
-         <h1>Hello {props.name} as a {props.heroName} </h1>
-         {props.children}
+         <h1>Hello {name} also known as a {heroName} </h1>
+         {/* {props.children} */}
       </div>
    )
 }
