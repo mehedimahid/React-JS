@@ -4,6 +4,8 @@ class ClassClick extends Component {
 
    clickHandeler(){
       console.log('Button Clicked')
+      // console.log(this)
+     
    }
    
    render() {

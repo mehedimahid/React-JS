@@ -10,6 +10,8 @@ import Message from './component/Message';
 import Counter from './component/Counter';
 import FunctionClick from './component/FunctionClick';
 import ClassClick from './component/ClassClick';
+import EventBind from './component/EventBind';
+import ParentComponent from './component/ParentComponent';
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
       <Welcome name = 'Diana ' heroName = 'Wonder Woman'/> */}
       {/* <Counter/> */}
       {/* <FunctionClick/> */}
-      <ClassClick/>
+      {/* <ClassClick/> */}
+      {/* <EventBind/> */}
+      <ParentComponent/>
     </div>
   );
 }
