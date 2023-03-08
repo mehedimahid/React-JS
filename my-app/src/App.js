@@ -1,17 +1,18 @@
-
-import './App.css';
+import "./App.css";
 // import logo from './logo.svg'
-import Hello from './component/Hello';
+import Hello from "./component/Hello";
 // import { Hello } from './component/Hello';
-import Welcome from './component/Welcome';
-import Hellojsx from './component/whyJSX';
-import Withoutjsx from './component/whyJSX';
-import Message from './component/Message';
-import Counter from './component/Counter';
-import FunctionClick from './component/FunctionClick';
-import ClassClick from './component/ClassClick';
-import EventBind from './component/EventBind';
-import ParentComponent from './component/ParentComponent';
+import Welcome from "./component/Welcome";
+import Hellojsx from "./component/whyJSX";
+import Withoutjsx from "./component/whyJSX";
+import Message from "./component/Message";
+import Counter from "./component/Counter";
+import FunctionClick from "./component/FunctionClick";
+import ClassClick from "./component/ClassClick";
+import EventBind from "./component/EventBind";
+import ParentComponent from "./component/ParentComponent";
+import UserGreating from "./component/UserGreating";
+import NameList from "./component/NameList";
 
 function App() {
   return (
@@ -22,7 +23,9 @@ function App() {
       {/* <FunctionClick/> */}
       {/* <ClassClick/> */}
       {/* <EventBind/> */}
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+      {/* <UserGreating/> */}
+      <NameList />
     </div>
   );
 }
