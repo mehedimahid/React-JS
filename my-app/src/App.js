@@ -17,6 +17,7 @@ import StyleSheet from "./component/styleWithCSS/StyleSheet";
 import Inline from "./component/styleWithCSS/Inline";
 import "./component/styleWithCSS/appStyle.css";
 import styles from "./component/styleWithCSS/appStyle.module.css";
+import Form from "./component/Form";
 
 function App() {
   return (
@@ -32,8 +33,9 @@ function App() {
       {/* <NameList /> */}
       {/* <StyleSheet /> */}
       {/* <Inline /> */}
-      <h2 className="error">ERROR</h2>
-      <h2 className={styles.success}>Success</h2>
+      {/* <h2 className="error">ERROR</h2>
+      <h2 className={styles.success}>Success</h2> */}
+      <Form />
     </div>
   );
 }
