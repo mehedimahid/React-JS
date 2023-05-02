@@ -19,6 +19,7 @@ import "./component/styleWithCSS/appStyle.css";
 import styles from "./component/styleWithCSS/appStyle.module.css";
 import Form from "./component/Form";
 import LifeCycleA from "./component/LifeCycle/LifeCycleA";
+import ComponentUpdate from "./component/LifeCycle/ComponentUpdate";
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
       {/* <h2 className="error">ERROR</h2>
       <h2 className={styles.success}>Success</h2> */}
       {/* <Form /> */}
-      <LifeCycleA />
+      {/* <LifeCycleA /> */}
+      <ComponentUpdate />
     </div>
   );
 }
