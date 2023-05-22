@@ -22,28 +22,12 @@ import LifeCycleA from "./component/LifeCycle/LifeCycleA";
 import ComponentUpdate from "./component/LifeCycle/ComponentUpdate";
 import FragmentDemo from "./component/Fragment/FragmentDemo";
 import Table from "./component/Fragment/Table";
+import RefsDemo from "./component/Refs/RefsDemo";
 
 function App() {
   return (
     <div className="App">
-      {/* <Hello name = 'Diana' heroName = 'Wonder Woman'/>
-      <Welcome name = 'Diana ' heroName = 'Wonder Woman'/> */}
-      {/* <Counter/> */}
-      {/* <FunctionClick/> */}
-      {/* <ClassClick/> */}
-      {/* <EventBind/> */}
-      {/* <ParentComponent/> */}
-      {/* <UserGreating/> */}
-      {/* <NameList /> */}
-      {/* <StyleSheet /> */}
-      {/* <Inline /> */}
-      {/* <h2 className="error">ERROR</h2>
-      <h2 className={styles.success}>Success</h2> */}
-      {/* <Form /> */}
-      {/* <LifeCycleA /> */}
-      {/* <ComponentUpdate /> */}
-      {/* <FragmentDemo /> */}
-      {/* <Table /> */}
+      <RefsDemo />
     </div>
   );
 }
