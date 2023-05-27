@@ -23,11 +23,12 @@ import ComponentUpdate from "./component/LifeCycle/ComponentUpdate";
 import FragmentDemo from "./component/Fragment/FragmentDemo";
 import Table from "./component/Fragment/Table";
 import RefsDemo from "./component/Refs/RefsDemo";
+import FocusInput from "./component/Refs/FocusInput";
 
 function App() {
   return (
     <div className="App">
-      <RefsDemo />
+      <FocusInput />
     </div>
   );
 }
