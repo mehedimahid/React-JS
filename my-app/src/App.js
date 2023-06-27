@@ -1,14 +1,25 @@
 import "./App.css";
-import ClickCounter from "./component/Higher-Order-Component/ClickCounter";
 import ClickCounterTwo from "./component/Higher-Order-Component/ClickCounterTwo";
-import HoverCounter from "./component/Higher-Order-Component/HoverCounter";
+import Counter from "./component/Higher-Order-Component/Counter";
+import CounterTwo from "./component/Higher-Order-Component/CounterTwo";
+
 import HoverCounterTwo from "./component/Higher-Order-Component/HoverCounterTwo";
 
 function App() {
   return (
     <div className="App">
-      <ClickCounterTwo />
-      <HoverCounterTwo />
+      {/* <Counter>
+        {(count, incrementCount) => (
+          <ClickCounterTwo count={count} incrementCount={incrementCount} />
+        )}
+      </Counter>
+
+      <Counter>
+        {(count, incrementCount) => (
+          <HoverCounterTwo count={count} incrementCount={incrementCount} />
+        )}
+      </Counter> */}
+      <CounterTwo />
     </div>
   );
 }
